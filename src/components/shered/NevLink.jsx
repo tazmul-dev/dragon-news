@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 const NevLink = ({href, children}) => {
 
     const pathName = usePathname()
-    console.log(pathName, "pathName")
+ 
 
     const isActive = href === pathName
 

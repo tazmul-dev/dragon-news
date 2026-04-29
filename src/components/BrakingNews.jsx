@@ -13,7 +13,7 @@ const BrakingNews = () => {
         <div className="flex justify-between items-center bg-gray-200 py-4 my-4 px-2 container mx-auto">
             <button className="brn bg-red-400 text-white py-2 px-4 font-medium">Latest</button>
             <Marquee pauseOnHover={true}>
-               {newses.map(news => <span key={news.id}>{news.title}</span>)}
+               {newses.map(news => <span className="mr-4" key={news.id}>{news.title}</span>)}
             </Marquee>
         </div>
     );
